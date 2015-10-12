@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    height: 100%;
+    background-image: url('../images/welcome_back.jpg'); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0px;
+}
+
+.span12 {
+    text-align: center
+}
+
+#main {
+    height: 50px;
+}
+
+.main {
+    margin-top: 7em;
+    position: relative;
+}
+
+.main h1 {
+    position: relative;
+    text-align: center;
+    color: #F57A82;
+    font-size: 5em;
+    font-family: 'Raleway', sans-serif;
+    padding 0 20px 0 10px;
+    
+}
+
+.main a {
+    display: inline-block;
+    margin-top: 2.5em;
+    height: 120px;
+    width: 280px;
+    background-color: white;
+    color: #F57A82;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 1.3px;
+    padding: 20px 10px 0px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background 0.5s;
+}
+
+.main a:hover {
+    background-color: transparent;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 1.3px;
+    padding: 20px 10px 0px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+
