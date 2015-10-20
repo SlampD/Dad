@@ -9,14 +9,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    <!-- Шрифты -->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
-    <title>Торговый дом "Провиант"</title>
+    <title>Торговый Дом "ПРОВИАНТ"</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/business-frontpage.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,20 +44,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"></a>
+        <!--        <a class="navbar-brand" href="#">asdads</a> 
+                    <img class="navbar-brand" src="images/logo.png"> -->
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#home">ТД "Провиант"</a>
+                        <a href="#home">Главная</a>
                     </li>
                     <li>
                         <a href="#about">О Нас</a>
                     </li>
-                    <li>
-                        <a href="#about">Прайс</a>
-                    </li>
+                   
                     <li>
                         <a href="#news">Новости</a>
                     </li>
@@ -61,7 +64,12 @@
                         <a href="#specpred">Спецпредложения</a>
                     </li>
                      <li>
-                        <a href="#about">Контакты</a>
+                        <a href="#contact">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                     <li>
+                        <a href="https://docs.google.com/spreadsheets/d/12AHXUrx2ponKX4fR2iflKFG6yHTBIujeePEoCOpIVss/edit?usp=sharing" target="_blank">Прайс</a>
                     </li>
                 </ul>
             </div>
@@ -79,7 +87,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="tagline">Торговый Дом "Провиант"</h1>
+                    <h1 class="tagline">Торговый Дом "ПРОВИАНТ"</h1>
                     <h3 class="tagline">Наша колбаса в ваш дом!</h3>
                 </div>
             </div>
@@ -92,88 +100,131 @@
         <hr>
 
         <div id="about" class="row">
-            <div class="col-sm-6">
-                <h2>Кто мы?</h2>
+            <div class="col-sm-12">
+                <h1>Кто мы?</h1>
                 <p>Что мы предлагаем?</p>
                 <p>Оно вам надо?</p>
-                <p>
-                    <a id="price" class="btn btn-default btn-lg" href="https://docs.google.com/spreadsheets/d/12AHXUrx2ponKX4fR2iflKFG6yHTBIujeePEoCOpIVss/edit?usp=sharing" target="_blank">Жмякай, чтобы заиметь прайс!&raquo;</a>
-                </p>
-            </div>
-            <div class="col-sm-6">
-                <h2>Контакты</h2>
-                <address>
-                    <strong>ТД "ПРОВИАНТ"</strong>
-                    <br>424242 Санкт-Петербург
-                    <br>ул.РазДва, 13-42
-                    <br>
-                </address>
-                <address>
-                    <abbr title="Телефон">P:</abbr>(812) 123-4567
-                    <br>
-                    <abbr title="Email">E:</abbr> <a href="mailto:#">mail@mail.com</a>
-                </address>
-                <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=xM-5cgB9CkOJdeweMrLxlio353v_08Vc&width=500&height=400&lang=ru_RU&sourceType=constructor"></script>
+               
             </div>
         </div>
+        
         <!-- /.row -->
 
         <hr>
         
-        <div id="specpred" class="row">
-            <div class="col-sm-12">
+        <div id="news" class="row">
+            <div  class="col-sm-3">
+                <h1>Новости</h1>
+            </div>
+              <div id="specpred" class="col-sm-9">
                 <h1>Спецпредложения</h1>
             </div>
         </div>
         
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-3 newsblock">    
+                
+               
+                <p>Great new everyone!</p>
+                
+            <hr>
+                
+                <p>Great new everyone! <a href="https://google.com">ГУГОЛ</a>.</p>
+                
+            <hr>
+                <p>Great new everyone!</p>
+                
+            </div>
+         
+            <div class="col-sm-3">
                 <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-                <h2>Колбаса #1</h2>
+                <br>
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
+            </div>
+            <div class="col-sm-6">
+                
+                <p>Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! </p>
+        
+                <br>
+                <p>Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! </p>
+                <br>
+                 <p>Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! </p>
+        
+                <br>
                 <p>Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! </p>
             </div>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-                <h2>Колбаса #2</h2>
-                <p>Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! </p>
-            </div>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-                <h2>Колбаса #3</h2>
-                <p>Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем!Ммм! Какая вкусная колбаса! Наивкуснейшая! Вкуснее не бывает! Уже везем! </p>
-            </div>
-        </div>
-        <!-- /.row -->
-        
-         <hr>
-        
-        <div id="news" class="row">
-            <div class="col-sm-12">
-                <h1>Новости</h1>
-            </div>
+            
+       
+            
         </div>
         
-        <div class="row">
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-                <h2>Новость раз</h2>
-                <p>Great new everyone!</p>
-            </div>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-                <h2>Новость два</h2>
-                <p>Great new everyone!</p>
-            </div>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-                <h2>Колбаса #3</h2>
-                <p>Great new everyone!</p>
-            </div>
-        </div>
+  
         <!-- /.row -->
 
         <hr>
 
+    <div class="row">
+          <div id="contact" class="col-sm-12">
+              <h1>Контакты</h1>
+          </div>
+    </div>
+    <div class="row">
+             <div class="col-sm-6">
+                <address>
+                    <strong>ООО "Торговый Дом Провиант"</strong>
+                    <br>196143, г.Санкт-Петербург
+                    <br>ул. Орджоникидзе, д.44
+                    <br>корпус 5"А", офис 3
+                    <br>ИНН: 7801153820
+                </address>
+                <address>
+                    <abbr title="Телефон">Т:</abbr> +7 (812) 406-9893
+                    <br>
+                    <abbr title="Email">E:</abbr> <a href="mailto:#">mail@mail.com</a>
+                </address>
+
+                <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=xM-5cgB9CkOJdeweMrLxlio353v_08Vc&width=500&height=400&lang=ru_RU&sourceType=constructor"></script>
+            </div>
+        
+<!-- Форма обратной связи -->
+        
+            <div class="col-sm-3">
+                <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Ваше имя" id="name" required>
+                        <p class="help-block text-danger"></p>
+                </div> 
+            </div>
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Ваш Email" id="email" data-error="Error" required>
+                    <label for="email" data-error="Error"></label>
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+      
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Ваше сообщение" id="message" required></textarea>
+                    <p class="help-block text-danger"></p>
+                                  
+                </div>
+            </div>     
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <input сlass="radio-input" type="radio" name="msgtype" value="msg" id="msg">
+                    <label class="radio-label" for="msg">Сообщение</label>
+                    <input class="radio-input" type="radio" name="msgtype" value="order" id="order">
+                    <label class="radio-label" for="order">Заказ</label>
+                </div>
+        
+            </div>              
+            <div class="col-sm-6 text-center">
+                <button type="submit" class="btn btn-xl" value="submit">Отправить</button>
+            </div>
+            
+    </div>
+</div>
+    
         <!-- Footer -->
         <footer>
             <div class="row">
